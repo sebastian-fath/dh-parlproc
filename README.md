@@ -5,6 +5,8 @@ Alternatively, if you just want to generate the model as a .keras file, you can 
 
 please ensure you have the required dependencies installed (requirements.txt)
 
+the presentation for this production similar to what is available in `docs/` is also available  on [Google Drive](https://docs.google.com/presentation/d/1mDWlnykT6-AHzeMgpr1_Soug7tevScrQ/edit?usp=sharing&ouid=116863820418242202423&rtpof=true&sd=true).
+
 # Project
 
 # Abstract
