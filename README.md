@@ -1,13 +1,15 @@
 # Usage and Installation
 
-# Project
+The full code, explanations and generated pictures et al. can be seen in `exploration.ipynb`.
+Alternatively, if you just want to generate the model as a .keras file, you can run `python src/model_training.py`.
 
+# Project
 
 # Abstract
 
 **Verfahrensorientierte Datensätze aus historischen Schriftsätzen erstellen. Automatische Translation von Informationen aus Parlamentsprotokollen der britischen Parlamente.**
 
-Ein jedes Parlament dokumentiert irgendwo was es wann wie tut. Normalerweise geschieht dies in Niederschriften, den sogenannten Protokollen. Heutztutage stellen die meisten Parlamente ihre Unterlagen in mehr oder weniger gut verarbeitungsbarer Struktur digital zur Verfügung. Als goldener Standard lässt sich hier schnell das “Dokumentations- und Informationssystem für Parlamentsmaterialien” (DIP) des deutschen Bundestags anbringen[^1], dessem Ansatz der Dokumentation eines jedem "Verfahren" vor dem Bundestag eine effiziente Analyse der Geschehnisse im Bundestag ermöglicht und dem Suchenden eine geraume Menge an Kontext vermag direkt mit darzustellen. 
+Ein jedes Parlament dokumentiert irgendwo was es wann wie tut. Normalerweise geschieht dies in Niederschriften, den sogenannten Protokollen. Heutztutage stellen die meisten Parlamente ihre Unterlagen in mehr oder weniger gut verarbeitungsbarer Struktur digital zur Verfügung. Als goldener Standard lässt sich hier schnell das “Dokumentations- und Informationssystem für Parlamentsmaterialien” (DIP) des deutschen Bundestags anbringen[^1], dessem Ansatz der Dokumentation eines jedem "Verfahren" vor dem Bundestag eine effiziente Analyse der Geschehnisse im Bundestag ermöglicht und dem Suchenden eine geraume Menge an Kontext vermag direkt mit darzustellen.
 
 Dem gegenüber stehen eine Unzahl an Parlamentsprotokollen vor dem 21. Jahrhundert, die nirgends derartig abrufbar sind. In diesen ist es oftmals ein aufwändiger Prozess, den Erstehungsprozess eines einzelnen Gesetz zu rekonstruieren. Der Vorteil eines Datensatzes, wie er dem DIP zugrunde liegt, ist offensichtlich: Die Dokumentation der Verfahren vor dem Parlament erlauben es Forschern einfacher die tatsächliche Entstehungsgeschichte _eines_ Gesetzes nachzuvollziehen. Dies ist nicht selten unwichtig, unter anderem bei der Bestimmung des Telos. Um den Prozess der Analyse und Durchsuchung der Parlamentsprotokolle zu vereinfachen wäre es also von Vorteil, wenn auch aus älteren (oder nicht gut vorbereiteten) Protokollen ein Datensatz der auftretenden Verfahren erstellt wird.
 
@@ -19,7 +21,7 @@ Dieses Projekt beruht, das sollte offensichtlich sein, auf der Verfügbarkeit de
 
 Eine Grundlegende Analyse der generierten Daten soll dann anhand von Performance Indikatoren vorgenommen werden. Es wird im Rahmen dieses Projekt nicht möglich sein, eine umfassende Akkuranz der generierten Daten zu bestimmen. Stattdessen sollen Abgleiche mit externen Datensätzen (beispielsweise mit [legislation.gov.uk](legislation.gov.uk)) und Punktweise Kontrolle der Daten einen ersten Eindruck der nutzbarkeit und Zuverlässigkeit vermitteln.
 
-
-[^1]: Für einen Eindruck empfiehlt sich schlicht die Betrachtung der API-Spec unter [https://search.dip.bundestag.de/api/v1/swagger-ui/](https://search.dip.bundestag.de/api/v1/swagger-ui/) 
+[^1]: Für einen Eindruck empfiehlt sich schlicht die Betrachtung der API-Spec unter [https://search.dip.bundestag.de/api/v1/swagger-ui/](https://search.dip.bundestag.de/api/v1/swagger-ui/)
 
 [^2]: Wie vorgestellt in WACHTER, Christian, 2023. Capturing Discourse through the Digital Lens: Towards a Framework for the Analysis of Pro-democratic Discourse in the Weimar Republic. In: Florentina ARMASELU und Andreas FICKERS (Hrsg.), Zoomland [online]. De Gruyter. S. 43–76. [Zugriff am: 28 November 2024]. ISBN 978-3-11-131777-9. Verfügbar unter: [https://www.degruyter.com/document/doi/10.1515/9783111317779-003/html](https://www.degruyter.com/document/doi/10.1515/9783111317779-003/html)
+
