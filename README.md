@@ -3,6 +3,8 @@
 The full code, explanations and generated pictures et al. can be seen in `exploration.ipynb`.
 Alternatively, if you just want to generate the model as a .keras file, you can run `python src/model_training.py`.
 
+please ensure you have the required dependencies installed (requirements.txt)
+
 # Project
 
 # Abstract
