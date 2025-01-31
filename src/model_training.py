@@ -40,6 +40,7 @@ def create_vec_layer(max_features: int =  100000, sequence_length: int = 500):
         )
     return vectorize_layer
 
+
 def custom_standardization(input_data):
   lowercase = tf.strings.lower(input_data)
   stripped_html = tf.strings.regex_replace(lowercase, '\\n', ' ')
@@ -92,8 +93,8 @@ if __name__ == '__main__':
     
     # turn data into dataset that is (easier) readable 
     seed = 101
-    tf_train_data = tf.keras.utils.text_dataset_from_directory("data/dataset", batch_size=32, validation_split=0.2, subset='training', seed=seed)
-    tf_val_data = tf.keras.utils.text_dataset_from_directory("data/dataset", batch_size=32, validation_split=0.2, subset='validation', seed=seed)
+    tf_train_data = tf.keras.utils.text_dataset_from_directory("data/dataset", batch_size=32, validation_split=0.4, subset='training', seed=seed)
+    tf_val_data = tf.keras.utils.text_dataset_from_directory("data/dataset", batch_size=32, validation_split=0.4, subset='validation', seed=seed)
 
     vectorize_layer = create_vec_layer()
 
